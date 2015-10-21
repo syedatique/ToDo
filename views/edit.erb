@@ -1,0 +1,14 @@
+</section>
+<form method="post" action="/items/<%= @item['id']%>">
+    <dl>
+      <dt><label for= 'item'>Item:</label></dt>
+      <dd><input id='item' name="item" type="text" value="<%= @item['item']%>"autofocus></dd>
+    </dl>
+    <dl>
+      <dt><label for= 'details'>Details:</label></dt>
+      <dd><textarea id='details' name="details">"<%= @item['details']%>"</textarea></dd>
+    </dl>
+      <button> Update task </button>
+</form>
+
+

@@ -1,0 +1,16 @@
+body{
+
+  background-image: url("todo.jpeg");
+  background-position: right top;
+  margin-right: 200px;
+  background-color: #E3CAA1;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li {
+  font-size: 150%;
+}
